@@ -1,0 +1,15 @@
+body {
+}
+
+nav {
+    background-color: indigo; //purple
+}
+
+ul {
+    text-align: left;
+}
+
+a {
+    color: whitesmoke;
+    padding: 10px;
+}
