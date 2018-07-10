@@ -5,8 +5,9 @@ nav {
     background-color: indigo; //purple
 }
 
-ul {
-    text-align: left;
+nav>li {
+    position: relative;
+    display: block;
 }
 
 a {
