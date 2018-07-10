@@ -1,16 +1,23 @@
 body {
+    margin: 0;
 }
+
 
 nav {
     background-color: indigo; //purple
 }
 
+ul {
+    margin: 0;
+    padding: 0 30% 0 30%;
+    list-style-type: none;
+}
+
 nav>li {
-    position: relative;
-    display: block;
+    display: inline-block;
+    text-align: center;
 }
 
 a {
     color: whitesmoke;
-    padding: 10px;
 }
