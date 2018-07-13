@@ -5,21 +5,41 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Generic Website - Services</title>
-        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <!--<link rel="stylesheet" type="text/css" href="../css/flexboxgrid.min.css">-->
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!--<script src="../js/nav.js"></script>-->
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-                <li><a href="contactUs.html">Contact Us</a></li>
-            </ul>
+        <nav class="topnav" id="myTopnav">
+            <a href="#">Brand</a>
+            <a href="../index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="aboutUs.html">About Us</a>
+            <a href="contactUs.html">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
         </nav>
+        <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}</script>
         <main>
             <h1>Services</h1>
             <p>A generic website for all generic website things.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc accumsan ipsum id placerat volutpat. In id condimentum urna. Phasellus pretium placerat lacus at bibendum. Curabitur sit amet venenatis mi. Sed volutpat a leo vel venenatis. Aliquam scelerisque vehicula risus eget fermentum. In auctor cursus libero eget tristique. Nullam vitae ante vel nulla tincidunt malesuada. Ut sollicitudin purus eros, sit amet sodales enim ultricies vitae. Suspendisse nec fringilla erat.</p>
+            <p>Curabitur lectus ligula, tempus sed erat quis, vestibulum facilisis magna. Aenean condimentum cursus metus et lobortis. Maecenas non diam tincidunt, aliquam ex in, varius urna. Maecenas ac ullamcorper elit. Morbi ac augue risus. Nunc eleifend ligula felis, sed dapibus nunc consequat non. Pellentesque ullamcorper purus augue, in semper eros volutpat vel. Aliquam a pellentesque sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam enim tortor, convallis ut elementum eleifend, sollicitudin ut nunc. Cras bibendum elit non interdum pharetra. Nam eu tortor quis urna pulvinar bibendum et non risus. Donec imperdiet est at risus ultricies scelerisque. Sed tristique, lacus nec facilisis sagittis, nunc libero sollicitudin magna, in lacinia lectus eros sed nisi. Curabitur sollicitudin urna vel augue pretium fringilla. Nulla eu nulla convallis, porttitor nisi at, interdum mauris.</p>
+            <p>Nunc nec tortor id est porttitor mollis ut sed leo. Aliquam rhoncus ac lacus sit amet scelerisque. Ut a augue eget dui feugiat eleifend nec in diam. Duis orci enim, sodales et mi non, rutrum tempor mauris. Cras dictum risus venenatis vestibulum tempus. Nam vitae ultrices enim. In vestibulum ornare ligula. Nunc tempus, leo non efficitur lacinia, nisl neque egestas lorem, vel posuere lectus tortor id massa.</p>
+            <p>Nullam ac velit luctus, placerat lorem sed, volutpat nunc. Etiam dui magna, placerat eu mauris quis, luctus placerat felis. Phasellus tincidunt iaculis libero at consequat. Proin porta vulputate leo. Aenean congue ligula sit amet dolor finibus cursus. Praesent vulputate quam non ex pharetra scelerisque. Vestibulum venenatis quam eros, mollis ultrices libero mollis quis. Pellentesque iaculis volutpat orci ut dapibus. Curabitur condimentum, diam eget mattis ornare, erat neque bibendum dolor, nec posuere sem tellus dignissim ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque convallis blandit mi, ac luctus turpis maximus et. Nullam ullamcorper posuere fringilla. Mauris ac justo quis odio commodo imperdiet interdum eget nisi.</p>
+            <p>Aliquam eget ante elementum nunc efficitur efficitur eu non ex. Proin id euismod est. Etiam sit amet lacus lobortis, semper elit quis, scelerisque sapien. Donec fermentum congue ante, at tempus ipsum vulputate a. Suspendisse lobortis ut tortor eget eleifend. Quisque leo nisi, faucibus sagittis nisl ac, venenatis mollis felis. Vivamus ipsum erat, molestie vitae pharetra sit amet, suscipit vitae felis. Vivamus ultrices tortor sit amet nisi imperdiet vestibulum. Donec viverra egestas pellentesque. Duis luctus sit amet turpis et maximus.</p>
         </main>
         <footer>
         </footer>
