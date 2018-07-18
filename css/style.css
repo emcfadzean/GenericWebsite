@@ -13,7 +13,8 @@ p {
 }
 
 nav {
-    background-color: indigo; //purple
+    height: 40px;
+    background-color: purple; //purple
 }
 
 .topnav {
@@ -35,8 +36,7 @@ nav>li {
 }
 
 a {
-    display: block;
-    text-align: center;
+    display: inline-block;
     width: 70;
     padding: 10px;
     color: whitesmoke;
@@ -70,6 +70,11 @@ a:active {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
+    a {
+    background-color: purple;
+    display: block;
+    text-align: center;
+    }
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;

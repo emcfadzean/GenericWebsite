@@ -3,7 +3,10 @@
 --------------------------------------------------------------------------
 
 |  DATE  |  Description                                                  |
-| 120718 |  Top-fixed responsive navbar: clunky dropdown, breaks with    |
+| 120718 |  1. Top-fixed responsive navbar: clunky dropdown, breaks with |
 |        |  larger screen.                                               |
+|        |                                                               |
+|        |  2. Requires consistent gird-like responsive design.          |
+|        |                                                               |
 
 --------------------------------------------------------------------------

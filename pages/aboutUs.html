@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-     <title>Generic Website - About Us</title>
+        <title>Generic Website - About Us</title>
+        <link rel="stylesheet" type="text/css" href="../css/flexboxgrid.min.css">
+        <link rel="stylesheet" type="text/css" href="../css/myflex.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <body>
         <nav>
@@ -13,6 +16,36 @@
         <main>
             <h1>About Us</h1>
             <p>A generic website for all generic website things.</p>
+            <div class="container">
+                <form action="">
+                    <div class="form-row">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="form-row">
+                        <label for="favColour">Favourite Colour:</label>
+                        <input type="text" id="favColour">
+                    </div>
+                </form>
+            </div>
+            <div class="column-layout">
+                <div class="main-column">
+                    <h2>Main Content</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus. Cras nisl tortor, scelerisque at pulvinar eu, posuere sit amet nisl. Vestibulum consequat erat eu elit mattis pretium. Sed non orci nisl. Integer sed orci eu velit vestibulum dignissim. Aliquam auctor tortor quis est imperdiet lobortis. Proin eu euismod lectus. Curabitur elementum sollicitudin nisl consectetur porttitor.</p>
+                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. Mauris est ipsum, commodo nec purus quis, tempor pretium augue. Morbi diam nulla, consectetur nec porta et, condimentum ullamcorper est. Pellentesque lobortis turpis in pellentesque tincidunt. Quisque ultricies lorem dui, luctus volutpat erat elementum nec. Nunc quis iaculis lectus. Ut cursus lacus erat, non rutrum ante pulvinar at. Donec lectus neque, dignissim eu bibendum eu, tempus ac ipsum. Donec congue mi at diam condimentum pretium. Nunc cursus lectus ac neque aliquet dictum. Donec ullamcorper lobortis volutpat. Etiam bibendum ligula eget purus varius, ac blandit nunc fermentum. Maecenas elementum felis non ligula sagittis, ut fermentum orci rhoncus. Duis placerat purus eu justo consectetur molestie.</p>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum convallis pulvinar convallis. Vivamus feugiat nulla in massa tristique suscipit. Fusce nec scelerisque lacus, suscipit sagittis elit. Praesent lorem sem, tempus eget vulputate nec, dignissim ac nibh. Proin elementum lobortis vehicula. Etiam ut tristique lorem, et ornare quam. Nunc maximus vitae nisl eget malesuada. Ut cursus elit et tortor vehicula aliquam ut ac metus. Fusce tincidunt quam dui, sit amet fringilla lectus ultricies a.</p>
+                </div>
+                <div class="sidebar-one">
+                    <h3>Sidebar one</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus.</p>
+                </div>
+                <div class="sidebar-two">
+                    <h3>Sidebar two</h3>                    
+                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. </p>
+                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. </p>
+                </div>
+            </div>
         </main>
         <footer>
         </footer>
