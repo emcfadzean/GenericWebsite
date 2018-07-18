@@ -8,6 +8,10 @@ main {
     padding: 10px;
 }
 
+div {
+    margin-bottom: 10px;
+}
+
 .container {
     background-color: aliceblue;
     padding: 10px;
@@ -36,16 +40,21 @@ main {
 .main-column {
     flex:3;
     order:2;
+    
+    padding: 10px;
 }
 
 .sidebar-one {
     flex:1;
     order:1;
+    
+    padding: 10px;
 }
 
 .sidebar-two {
     flex:1;
     order:3;
+    padding: 10px;
 }
 
 /*Flex callouts*/
@@ -73,3 +82,48 @@ call-out:nth-child(1){background-color: beige;}
 call-out:nth-child(2){background-color: antiquewhite;}
 call-out:nth-child(3){background-color: bisque;}
 */
+
+/*Example 5: Center me plz*/
+.banner {
+    color: white;
+    background-color: black;
+    height: 400px;
+    display: flex;
+}
+
+.center-me {
+    font-size: 30px;
+    margin: auto;
+}
+
+/*Example 6: Columns and Rows */
+.equal-height-container {
+    display: flex;
+}
+
+.first {
+    flex: 1;
+    padding: 20px;
+    background-color: #eeeeee;
+}
+
+.second {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second-a {
+    color:;
+    background-color: lightseagreen;
+    flex: 1;
+        margin: 0;
+}
+
+.second-b {
+    color: white;
+    background-color: darkred;
+    flex: 1;
+        margin: 0;
+}
