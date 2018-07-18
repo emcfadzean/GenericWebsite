@@ -127,3 +127,39 @@ call-out:nth-child(3){background-color: bisque;}
     flex: 1;
         margin: 0;
 }
+
+/* Navigation bar using flex grid. */
+nav {
+    color: white;
+    background-color: purple;
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+.brand {
+    flex: 1;
+    margin: auto;
+    padding-left: 0px;
+}
+
+.links {
+    flex: 1;
+    display: flex;
+    margin: auto;
+}
+
+.nav-link {
+    flex: 1;
+    margin: auto;
+}
