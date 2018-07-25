@@ -69,7 +69,7 @@ nav {
     height: 2px;
     background-color: #FFF;
     margin: 6px 0;
-    transition: 1.0s;
+    transition: 0.4s;
 }
 
 .change .bar1 {
