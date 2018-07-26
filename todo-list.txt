@@ -8,6 +8,8 @@
 |        |                                                               |
 |        |  2. Requires consistent gird-like responsive design.          |
 |        |                                                               |
-|        |  3. Fix menu hamburger margin.
+|        |  3. Fix menu hamburger margin.                                |
+|        |                                                               |
+| 260718 |  4. Fix js window resizing bug (disappearing desktop nav)     |
 
 --------------------------------------------------------------------------
