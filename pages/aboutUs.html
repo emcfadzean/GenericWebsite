@@ -2,18 +2,22 @@
 <html lang="en">
     <head>
         <title>Generic Website - About Us</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <link rel="stylesheet" type="text/css" href="../css/flexboxgrid.min.css">
-        <link rel="stylesheet" type="text/css" href="../css/myflex.css">
+        <link rel="stylesheet" type="text/css" href="../css/nav.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="../js/nav.js"></script>
     </head>
     <body>
         <nav>
             <div class="nav-bar">
                 <div class="brand"><a href="#">Brand</a></div>
-                <div class="menu-hamburger" onclick="hideNav">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
+                <div class="container">
+                    <div id="demo" class="menu-hamburger" onclick="hideNav(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
                 </div>
             </div>
             <div class="links">
@@ -24,66 +28,11 @@
             </div>
         </nav>
         <main>
-            <h1>About Us</h1>
-            <p>A generic website for all generic website things.</p>
-            <div class="container">
-                <form action="">
-                    <div class="form-row">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name">
-                    </div>
-                    <div class="form-row">
-                        <label for="favColour">Favourite Colour:</label>
-                        <input type="text" id="favColour">
-                    </div>
-                </form>
+            <div class="content">
+                <h1>About Us</h1>
+                <p>A generic website for all generic website things.</p>
             </div>
-            <div class="column-layout">
-                <div class="main-column">
-                    <h2>Main Content</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus. Cras nisl tortor, scelerisque at pulvinar eu, posuere sit amet nisl. Vestibulum consequat erat eu elit mattis pretium. Sed non orci nisl. Integer sed orci eu velit vestibulum dignissim. Aliquam auctor tortor quis est imperdiet lobortis. Proin eu euismod lectus. Curabitur elementum sollicitudin nisl consectetur porttitor.</p>
-                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. Mauris est ipsum, commodo nec purus quis, tempor pretium augue. Morbi diam nulla, consectetur nec porta et, condimentum ullamcorper est. Pellentesque lobortis turpis in pellentesque tincidunt. Quisque ultricies lorem dui, luctus volutpat erat elementum nec. Nunc quis iaculis lectus. Ut cursus lacus erat, non rutrum ante pulvinar at. Donec lectus neque, dignissim eu bibendum eu, tempus ac ipsum. Donec congue mi at diam condimentum pretium. Nunc cursus lectus ac neque aliquet dictum. Donec ullamcorper lobortis volutpat. Etiam bibendum ligula eget purus varius, ac blandit nunc fermentum. Maecenas elementum felis non ligula sagittis, ut fermentum orci rhoncus. Duis placerat purus eu justo consectetur molestie.</p>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum convallis pulvinar convallis. Vivamus feugiat nulla in massa tristique suscipit. Fusce nec scelerisque lacus, suscipit sagittis elit. Praesent lorem sem, tempus eget vulputate nec, dignissim ac nibh. Proin elementum lobortis vehicula. Etiam ut tristique lorem, et ornare quam. Nunc maximus vitae nisl eget malesuada. Ut cursus elit et tortor vehicula aliquam ut ac metus. Fusce tincidunt quam dui, sit amet fringilla lectus ultricies a.</p>
-                </div>
-                <div class="sidebar-one">
-                    <h3>Sidebar one</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae orci vehicula, egestas lacus vitae, aliquam purus.</p>
-                </div>
-                <div class="sidebar-two">
-                    <h3>Sidebar two</h3>                    
-                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. </p>
-                    <p>Duis iaculis accumsan bibendum. In ornare nisl quis facilisis consectetur. Sed porttitor, neque non sagittis consectetur, velit purus facilisis nibh, non efficitur magna eros ac mauris. </p>
-                </div>
-            </div>
-            <div class="call-outs-container">
-                <div class="call-out">
-                    <h4>Feature 1</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-                <div class="call-out">
-                    <h4>Feature 2</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-                <div class="call-out">
-                    <h4>Feature 3</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="center-me">Center Me Plz.</div>
-            </div>
-            <div class="equal-height-container">
-                <div class="first">
-                    <h4>Lorem Ipsum</h4>
-                    <p>Aenean sagittis mauris non urna dapibus tristique.</p>
-                    <p>Nullam tempor elit leo, vitae rutrum lectus rutrum sed. Morbi interdum ultrices enim vel suscipit.</p>
-                    <p>Aliquam a rutrum leo. Praesent pharetra, leo sit amet efficitur scelerisque, ligula orci fermentum enim, vel auctor leo est non enim. Sed a rutrum lorem. Pellentesque nec posuere nisi, ac fermentum felis. Fusce vitae enim quis velit facilisis ultricies. Nulla ac neque libero.</p>
-                </div>
-                <div class="second">
-                    <p class="second-a">A</p>
-                    <p class="second-b">B</p>
-                </div>
+            <div class="content">
             </div>
         </main>
         <footer>
