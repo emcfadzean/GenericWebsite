@@ -1,14 +1,26 @@
+/**
+Colour Scheme:
+    Primary: #212121
+    Light:   #484848
+    Dark:    #000000
+    Fill:    #F5F5F6
+    FillB:   #EEEEEE
+    White:   #FFFFFF
+*/
+
 html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: dimgrey;
+    background-color: #484848;
+    color: white;
 }
 body {
     margin: 0;
 }
 
 main {
+    color: black;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -17,16 +29,16 @@ main {
 .content {
     flex: 1;
     padding: 10px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .two {
-    background-color: #eeeeee;
+    background-color: #F5F5F6;
 }
 
 footer {
-    color: white;
-    background-color: dimgray;
+    color: inherit;
+    background-color: inherit;
     margin: 0;
     padding: 10px;
 }
@@ -37,10 +49,11 @@ p {
 
 h1 {
     margin: 0;
+    padding: 10px 0px 10px 0px;
 }
 
 nav {
-    background-color: black;
+    background-color: #212121;
 }
 
 a {
@@ -66,7 +79,7 @@ nav {
     .links {
     display: none; /*changes to flex with javascript*/
     flex-direction: column;
-    background-color: #900090;
+    background-color: #212121;
 }
 
 .nav-link {
@@ -132,7 +145,7 @@ nav {
 .bar1, .bar2, .bar3 {
     width: 24px;
     height: 2px;
-    background-color: #FFF;
+    background-color: white;
     margin: 6px 0;
     transition: 0.4s;
 }

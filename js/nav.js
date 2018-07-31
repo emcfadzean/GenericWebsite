@@ -8,3 +8,5 @@ function hideNav(x) {
     }
     x.classList.toggle("change");
 }
+
+window.onresize = function() {location.reload();}
