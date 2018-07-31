@@ -1,11 +1,17 @@
 /**
-Colour Scheme:
+Main Scheme:
     Primary: #212121
     Light:   #484848
     Dark:    #000000
+
     Fill:    #F5F5F6
     FillB:   #EEEEEE
     White:   #FFFFFF
+
+Accent Colour:  
+    Primary: #e91e63
+    Light:   #ff6090
+    Dark:    #b0003a
 */
 
 html {
@@ -29,6 +35,7 @@ main {
 .content {
     flex: 1;
     padding: 10px;
+    padding-bottom: 20px;
     background-color: #FFFFFF;
 }
 
@@ -41,6 +48,10 @@ footer {
     background-color: inherit;
     margin: 0;
     padding: 10px;
+}
+
+footer a:hover {
+    color: #ff6090;
 }
 
 p {
@@ -62,8 +73,13 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: #e91e63;
 }
+
+button a {
+    color: inherit;
+}
+
 @media screen and (max-width: 600px){
     main {
         padding-top: 50px;
@@ -153,7 +169,7 @@ nav {
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(0px, 12px);
     transform: rotate(-45deg) translate(0px, 12px);
-    background-color: yellow;
+    background-color: #e91e63;
 }
 
 .change .bar2 {opacity: 0;}
