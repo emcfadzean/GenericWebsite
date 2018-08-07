@@ -47,7 +47,20 @@ main {
 }
 
 .buttons {
+    text-decoration: none;
+    font-size: 50px;
     flex-direction: row;
+}
+
+button {
+    background-color: #e91e63; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 iframe {
@@ -150,6 +163,10 @@ a:hover {
 
 button a {
     color: inherit;
+}
+
+button a:hover {
+    color: black;
 }
 
 @media screen and (max-width: 600px){
