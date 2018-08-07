@@ -1,0 +1,273 @@
+/**
+Main Scheme:
+    Primary: #212121
+    Light:   #484848
+    Dark:    #000000
+
+    Fill:    #F5F5F6
+    FillB:   #EEEEEE
+    White:   #FFFFFF
+
+Accent Colour:  
+    Primary: #e91e63
+    Light:   #ff6090
+    Dark:    #b0003a
+*/
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #484848;
+    color: white;
+}
+body {
+    margin: 0;
+}
+
+main {
+    color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    padding-bottom: 20px;
+    background-color: #FFFFFF;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content p, .content iframe {
+    margin: auto;
+}
+
+.buttons {
+    text-decoration: none;
+    font-size: 50px;
+    flex-direction: row;
+}
+
+button {
+    background-color: #e91e63; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+iframe {
+    max-width: 800px;
+}
+
+.two {
+    background-color: #F5F5F6;
+}
+
+.windmil {
+    /* The image used */
+    background-image: url("../images/windmil-bw.jpeg");
+}
+
+.office {
+    background-image: url("../images/office-bw.jpg");
+}
+
+.palletstore {
+    background-image: url("../images/palletstore-bw.jpg");
+}
+
+.town {
+    background-image: url("../images/town-bw.jpg");
+}
+
+.parallax {
+    /* Full height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+}
+
+.parallax h1 {
+    margin: auto;
+    font-size: 40px;
+    text-shadow: 0px 2px 3px #484848;
+}
+
+footer {
+    color: inherit;
+    background-color: inherit;
+    margin: 0;
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright {
+    flex: 1;
+    flex-grow: 1;
+}
+
+.copyright p {
+    margin-top: 120px;
+    text-align: center;
+    color: #AAAAAA;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #ff6090;
+}
+
+p {
+    margin: 0 0 5px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+
+nav {
+    background-color: #212121;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+a:hover {
+    color: #e91e63;
+}
+
+button a {
+    color: inherit;
+}
+
+button a:hover {
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    main {
+        padding-top: 50px;
+    }
+    
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+    .links {
+    display: none; /*changes to flex with javascript*/
+    flex-direction: column;
+    background-color: #212121;
+}
+
+.nav-link {
+    box-sizing: border-box;
+    padding: 20px;
+}
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.brand {
+    flex: 1;
+    margin: auto 0 auto 0;
+    padding: 20px;
+    /*box-shadow: 0px 5px 20px #700070;*/
+}
+
+
+
+
+
+/* Tablet size */
+@media screen and (min-width: 600px){
+    nav {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex-direction: horizontal !important;
+    }
+    
+    .container {
+        display: none;
+    }
+    
+    .nav-bar {
+        flex: 1;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: flex-end;
+        flex: 1;
+        padding-right: 20px;
+    }
+    
+    .nav-link {
+        flex 1;
+        padding: 0 10px 0 10px;
+        /*border-bottom-style: solid;
+        border-bottom-color: #e91e63;*/
+        margin: 20px 0 0 0;
+    }
+}
+
+/* Menu Hamburger */
+.container {
+    padding: 10px;
+}
+
+.manu-hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(0px, 12px);
+    transform: rotate(-45deg) translate(0px, 12px);
+    background-color: #e91e63;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(0px, -12px);
+    transform: rotate(45deg) translate(0px, -12px);
+}
