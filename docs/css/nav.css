@@ -169,7 +169,7 @@ button a:hover {
     color: #ff6090;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 680px){
     main {
         padding-top: 50px;
     }
@@ -209,7 +209,7 @@ nav {
 
 
 /* Tablet size */
-@media screen and (min-width: 600px){
+@media screen and (min-width: 680px){
     nav {
         position: fixed;
         width: 100%;
