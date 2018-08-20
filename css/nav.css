@@ -53,7 +53,7 @@ main {
 }
 
 button {
-    background-color: #e91e63; /* Green */
+    background-color: #484848;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -166,7 +166,7 @@ button a {
 }
 
 button a:hover {
-    color: black;
+    color: #ff6090;
 }
 
 @media screen and (max-width: 600px){
